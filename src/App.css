@@ -1,0 +1,14 @@
+.App-header {
+  background-color: #282c34;
+  align-items: center;
+  color: white;
+  height: 35px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+  vertical-align: middle;
+}
+

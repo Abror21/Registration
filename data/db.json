@@ -1,0 +1,102 @@
+{
+  "customer": [
+    {
+      "name": "Mike",
+      "area": "Colorado",
+      "creditLimit": "8000",
+      "id": 3
+    },
+    {
+      "name": "Entony",
+      "area": "Alabama",
+      "creditLimit": "5000",
+      "id": 4
+    }
+  ],
+  "user": [
+    {
+      "id": "admin",
+      "name": "Admin",
+      "email": "admin@admin.com",
+      "mobile": "1234567",
+      "password": "admin",
+      "address": "jf;alsjdf laksjdfas df",
+      "isActive": true,
+      "role": "admin"
+    },
+    {
+      "role": "editor",
+      "isActive": true,
+      "id": "editor",
+      "name": "Editor",
+      "email": "editor@admin.com",
+      "password": "editor"
+    },
+    {
+      "id": "author",
+      "name": "Author",
+      "email": "author@admin.com",
+      "password": "author",
+      "mobile": "1234567",
+      "address": "jf;alsjdf laksjdfas df asdfkljasdf lkj",
+      "role": "author",
+      "isActive": false
+    },
+    {
+      "id": "user",
+      "name": "User",
+      "email": "user@admin.com",
+      "password": "user",
+      "role": "user",
+      "isActive": false
+    }
+  ],
+  "role": [
+    {
+      "id": "admin",
+      "name": "Admin"
+    },
+    {
+      "id": "editor",
+      "name": "Editor"
+    },
+    {
+      "id": "author",
+      "name": "Author"
+    },
+    {
+      "id": "user",
+      "name": "User"
+    }
+  ],
+  "roleAccess": [
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveAdd": true,
+      "haveEdit": true,
+      "haveDelete": true
+    },
+    {
+      "role": "admin",
+      "menu": "user",
+      "haveAdd": true,
+      "haveEdit": true,
+      "haveDelete": true
+    },
+    {
+      "role": "editor",
+      "menu": "customer",
+      "haveAdd": true,
+      "haveEdit": true,
+      "haveDelete": false
+    },
+    {
+      "role": "user",
+      "menu": "customer",
+      "haveAdd": false,
+      "haveEdit": false,
+      "haveDelete": false
+    }
+  ]
+}
